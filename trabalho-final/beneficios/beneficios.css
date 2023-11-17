@@ -1,0 +1,275 @@
+
+body{
+    font-family: Times , 'Times New Roman', serif !important;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 800px) {
+  .h1{
+    font-size: 26px !important;
+  }
+}
+
+.modal {
+    width: 300px;
+  }
+  .modal-content {
+    width: 300px;
+  }
+  .list-group-item:hover {
+    background-color: rgba(59, 57, 57, 0.164) !important;
+  }
+  .navbar-brand{
+    font-size: 50px;
+  }
+  a{
+    text-decoration: none !important;
+    color: inherit !important;
+    
+  }
+  @media (max-width: 900px) {
+    .links {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 900px){
+    .navbar-toggler{
+      display: none;
+    }
+  }
+  .navbar{
+    background-color: #486623;
+  }
+  
+  .cor{
+    background-color: #5c6756 !important;
+  }
+  .links li{
+    list-style: none;
+    display: none;
+    
+  }
+  
+@media (max-width: 900px){
+  .dropdown-toggle{
+    display: none !important;
+  }
+}
+.dropdown-toggle{
+    margin-bottom: 10px !important;
+    background-color: #5c6756 !important;
+    border: none !important;
+}
+.dropdown-menu{
+    background-color: #5c6756 !important;
+}
+.dropdown-item:hover{
+    background-color: #5c6756 !important;
+    color: rgb(255, 255, 255) !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+  p{
+    color: white;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .conteiner .row {
+    display: flex;
+   
+    padding: 10px; /* Ajuste o valor conforme necessário */
+  }
+  
+  .conteiner .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; /* Alinha o conteúdo no centro vertical e horizontal */
+    padding: 10px; /* Ajuste o valor conforme necessário */
+  }
+  
+  .textos {
+    
+    padding-left: 20px; /* Ajuste o valor conforme necessário */
+  }
+  .text0{
+    background-color: #c7cec9;
+  margin-top:5% ;
+  }
+  .text0 h1 {
+   color: #485342;
+  }
+  .text0 h4 {
+    color: #485342;
+   }
+  
+  
+   
+   img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+       }
+      
+   .textos1 h1{
+       font-size: 70px;
+   }
+   .textos1 h5{
+       font-size: 40px;   
+   }
+   
+   .textos1 p{
+       font-size: 20px;   
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color: #5c6756;
+    padding: 50px 0;
+  }
+  
+  /* .container-fluid{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+  } */
+  .rfooter{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer1{
+    width: 25%;
+    padding: 0 15px;
+    color: white;   
+  }
+  .footer1 h5{
+    
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  .footer1 ul {
+    list-style: none;
+  }
+  
+  .footer1 ul li {
+    margin: 10px 0;
+  }
+  
+  .footer1 ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer1 ul li a:hover {
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .footer1 .medias-socias {
+    margin-top: 30px;
+  }
+  
+  .footer1 .medias-socias a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10 px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+  }
+  
+  .footer1 .medias-socias a i {
+    font-size: 20 px;
+  
+  }
+  
+  .footer1 .medias-socias a:hover {
+    color: aquamarine;
+    background-color: white;
+  }
+  
+  .footer1 .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #ffffff;
+  }
+  
+  .footer1 .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #7f8b75;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #ffffff;
+  }
